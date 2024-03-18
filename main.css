@@ -1,0 +1,75 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Artifika', serif;
+}
+
+body {
+    margin-top: 50px;
+    background-color:rgb(232, 244, 252);
+}
+
+.container {
+    max-width: 860px;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 70px;
+    margin-left: 105px;
+    font-weight: bold;
+    margin-right: 90px;
+}
+
+form {
+    display: flex;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+form input {
+    font-size: 25px;
+    border-radius: 30px;
+    width: 60%;
+    padding: 20px;
+    color: #FFF;
+    border: 3px solid #4400ff;
+    background-color: #4400ff; 
+}
+
+input::placeholder {
+    color: #FFF;
+}
+
+form button {
+    font-size: 25px;            
+    bottom: 76px;
+    border-radius: 30px;
+    padding: 20px;
+    cursor: pointer;  
+    color: #FFF;
+    border: 3px solid #4400ff; 
+    background-color: #4400ff; 
+}
+
+li {
+    font-size: 25.5px;
+    font-weight: bold;
+    width: 100%;
+    word-break: break-word;
+    margin-bottom: 10px;
+    line-height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+    color: #000;
+    background-color: rgb(93, 117, 255);
+} 
+
+.riscado {
+    text-decoration: line-through 3px;
+    background-color: #4400ff;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário-BS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="position-absolute top-50 start-50 translate-middle" >
+            <h1 class="mb-0 p-3 bg-dark text-primary" style="text-align: center;">Preencha os campos</h1>
+            <form class="border border-dark border border-top-0 border border-3" style="width: 600px;">
+                <div class="mx-2">
+                    <label class="form-label ms-2" for="nome">Nome:</label>
+                    <input class="form-control border border-primary border border-2  focus-ring focus-ring-secondary" type="text" id="nome" placeholder="Nome Completo" required>
+    
+                    <label class="form-label ms-2" for="email">Email:</label>
+                    <input class="form-control border border-primary border border-2 focus-ring focus-ring-secondary" type="email" id="email" placeholder="Escreva o seu email" required>
+    
+                    <label class="form-label ms-2" for="tel">Número:</label>
+                    <input class="form-control border border-primary border border-2 focus-ring focus-ring-secondary" type="tel" id="tel" placeholder="Digite o seu número" required>
+    
+                    <button class="btn btn-outline-dark text-primary btn-lg btn-border border-2" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
